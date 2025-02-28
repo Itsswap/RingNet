@@ -6,7 +6,7 @@ import WebPages.Demander;
 import WebPages.LoginPage;
 
 public class DemanderTest {
-	@Test(priority=1)
+	@Test()
 	public void verifydemander() throws Exception
 	{
 		LoginPage lp = new LoginPage();

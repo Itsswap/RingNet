@@ -56,7 +56,7 @@ public class MasterPage {
 		driver.get(prop.getProperty("url"));
 	}
 				
-		public void teardown()
+		//public void teardown()
 		{
 			
 			

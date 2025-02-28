@@ -6,9 +6,10 @@ import WebPages.LoginPage;
 
 public class LoginTest {
 
-	@Test(priority=-1)
+	@Test()
 	public void VerifyUserLogin() throws Exception {
 		LoginPage lp = new LoginPage();
 		lp.UserLoginPage();
+		
 	}
 }

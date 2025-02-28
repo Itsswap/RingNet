@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-26T18:10:56 IST" name="Suite" finished-at="2025-02-26T18:11:41 IST" duration-ms="45524">
+  <suite started-at="2025-02-28T16:05:47 IST" name="Default suite" finished-at="2025-02-28T16:05:57 IST" duration-ms="9343">
     <groups>
     </groups>
-    <test started-at="2025-02-26T18:10:56 IST" name="Test" finished-at="2025-02-26T18:11:41 IST" duration-ms="45524">
+    <test started-at="2025-02-28T16:05:47 IST" name="Default test" finished-at="2025-02-28T16:05:57 IST" duration-ms="9343">
       <class name="TestCases.LoginTest">
-        <test-method signature="VerifyUserLogin()[pri:-1, instance:TestCases.LoginTest@f5ac9e4]" started-at="2025-02-26T18:11:00 IST" name="VerifyUserLogin" finished-at="2025-02-26T18:11:41 IST" duration-ms="41008" status="FAIL">
+        <test-method signature="VerifyUserLogin()[pri:0, instance:TestCases.LoginTest@61862a7f]" started-at="2025-02-28T16:05:47 IST" name="VerifyUserLogin" finished-at="2025-02-28T16:05:57 IST" duration-ms="9263" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 133.0.6943.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 133.0.6943.142 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'DESKTOP-IVBEK0Q', ip: '192.168.8.111'
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
@@ -20,7 +20,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 133.0.6943.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 133.0.6943.142 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'DESKTOP-IVBEK0Q', ip: '192.168.8.111'
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
@@ -40,7 +40,7 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at BaseClass.MasterPage.<init>(MasterPage.java:39)
-at BaseClass.Commonmethods.<init>(Commonmethods.java:8)
+at BaseClass.Commonmethods.<init>(Commonmethods.java:24)
 at WebPages.LoginPage.<init>(LoginPage.java:10)
 at TestCases.LoginTest.VerifyUserLogin(LoginTest.java:11)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -76,6 +76,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- VerifyUserLogin -->
       </class> <!-- TestCases.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
